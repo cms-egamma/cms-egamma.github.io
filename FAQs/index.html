@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        
+        <link rel="canonical" href="https://cms-egamma.github.io/FAQs/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>About us - CMS EGamma POG</title>
+        <title>FAQs - CMS EGamma POG</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -34,10 +34,16 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href=".." class="nav-link">Welcome to E/Gamma POG webpage</a>
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../EgammaSFJSON/" class="nav-link">JSONs</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../Run2/" class="nav-link">Run2</a>
                             </li>
                             <li class="navitem active">
-                                <a href="./" class="nav-link">About us</a>
+                                <a href="./" class="nav-link">FAQs</a>
                             </li>
                         </ul>
 
@@ -48,7 +54,7 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href=".." class="nav-link">
+                                <a rel="prev" href="../Run2/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
@@ -74,24 +80,16 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
-            
-            <li class="nav-item" data-level="1"><a href="#about-us" class="nav-link">About us</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="about-us">About us</h1>
-<p>The charge of the E/gamma POG is to study, develop, characterize and validate the tools to identify and reconstruct electrons and photons using all the information available from the CMS detector, both for the offline analysis and for the online event selection (HLT).</p>
-<p>In particular, the E/gamma POG is the forum to discuss and coordinate the work on the development of:
-   * reconstruction algorithms for electron and photon objects starting from standalone ECAL reconstructed objects (e.g. !SuperClusters)
-   * standardized tools for electron and photon identification
-   * algorithms to distinguish photons from pi-zeros
-   * HLT algorithms for electrons and photons, and the optimization of trigger paths, rates and efficiencies.
-   * techniques to measure trigger and reconstruction efficiencies using data.</p></div>
+<!---
+-->
+<p>Here we have compiled the list of frequently asked questions</p>
+<p><strong>1) Why we don't provide trigger scale factors?</strong></p>
+<p>Different analyses use diffrent trigger combinations as per requirements. On top that, even if two analyses use the same trigger, they may use different ID working points. It is difficult to provide scale factors for all the potential trigger+ID combinations. Therefore, we have decided not to provide a scale factor, but we will provide all the support to anyone who wants to measure the trigger scale factors for their analysis. Right from the tag-and-probe package to ntuples, we assist analyzers at each step. We maintain a list of the all the approved trigger scale factors here: https://twiki.cern.ch/twiki/bin/view/CMS/EgHLTScaleFactorMeasurements  </p></div>
             </div>
         </div>
 
