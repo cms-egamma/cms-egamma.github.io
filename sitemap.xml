@@ -16,6 +16,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://cms-egamma.github.io/PhysicsResults/</loc>
+         <lastmod>2022-04-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://cms-egamma.github.io/Run2/</loc>
          <lastmod>2022-04-11</lastmod>
          <changefreq>daily</changefreq>
